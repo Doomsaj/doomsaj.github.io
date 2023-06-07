@@ -1,12 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Hello Sajjad!"/>
 </template>
 
 <script>
+import {useI18n} from "vue-i18n";
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+    setup() {
+      const {t} = useI18n()
+      return {t}
+    },
   name: 'App',
   components: {
     HelloWorld
