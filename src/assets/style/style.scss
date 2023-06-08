@@ -1,0 +1,54 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+                $utilities,
+                (
+                        "width": (
+                                property: width,
+                                values: (
+                                        25: 25%,
+                                        50: 50%
+                                )
+                        )
+                )
+);
+body {
+  background-color: #011627;
+}
+
+#background-blurs {
+  position: absolute;
+  width: 25%;
+  height: 750px;
+  left: 60rem;
+  top: 180px;
+
+  .green {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+
+    background: #43D9AD;
+    opacity: 0.4;
+    filter: blur(87px);
+    transform: rotate(-94.3deg);
+  }
+
+  .blue {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+
+    background: #4D5BCE;
+    opacity: 0.4;
+    filter: blur(87px);
+    transform: rotate(13.51deg);
+  }
+}
+
+@import "bootstrap/scss/utilities/api";
