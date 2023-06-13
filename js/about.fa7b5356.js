@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkdoomsaj_github_io"]=self["webpackChunkdoomsaj_github_io"]||[]).push([[443],{2867:function(t,u,n){n.r(u),n.d(u,{default:function(){return d}});var o=n(3396),s=n(7139);const r={class:"about"};function e(t,u,n,e,a,c){return(0,o.wg)(),(0,o.iD)("div",r,[(0,o._)("h1",null,(0,s.zw)(e.t("about-us")),1)])}var a=n(5658),c={setup(){const{t:t}=(0,a.QT)();return{t:t}}},i=n(89);const b=(0,i.Z)(c,[["render",e]]);var d=b}}]);
+//# sourceMappingURL=about.fa7b5356.js.map
